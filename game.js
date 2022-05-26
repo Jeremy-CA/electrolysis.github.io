@@ -1,8 +1,8 @@
 $(document).ready(function(){
   console.log("test123");
-}		  
+});  
 var btn = document.getElementById("start");
-btn.onClick = function(){
+btn.onclick = function(){
 	x=document.getElementById("wrapper");
 	if (x.style.display === "none") {
 		x.style.display = "block";
