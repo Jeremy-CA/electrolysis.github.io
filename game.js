@@ -1,6 +1,18 @@
 $(document).ready(function(){
   console.log("test123");
-  
+}		  
+var btn = document.getElementById("start");
+btn.onClick = function(){
+	x=document.getElementById("wrapper");
+	if (x.style.display === "none") {
+		x.style.display = "block";
+		btn.innerText = "Hide";
+	} else {
+		x.style.display = "none";
+		btn.innerText = "Show";
+	}
+	
+}
 
 var odswiez1;
 var ctx;
